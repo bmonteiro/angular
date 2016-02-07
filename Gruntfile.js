@@ -506,6 +506,8 @@ module.exports = function (grunt) {
     'usemin',
     'htmlmin'
   ]);
+  //Travis CI Task
+  grunt.registerTask('travis', 'test');
 
   grunt.registerTask('default', [
     'newer:jshint',
